@@ -157,8 +157,8 @@
   </div>
 
   <div id="input-container">
-    <button id="start-btn" type="button">开始</button>
-    <input id="text-input" type="text" placeholder="请输入单词或在下方书写" />
+    <button id="start-btn" type="button">Start</button>
+    <input id="text-input" type="text" placeholder="Please enter the content or write below" />
     <canvas id="handwriting-pad" width="250" height="150"></canvas>
     <button id="submit-btn" type="button">&#x2192;</button>
   </div>
@@ -468,7 +468,7 @@
         if (currentIndex < textList.length) {
           startRound();
         } else {
-          alert("恭喜，你已完成所有文本！");
+          alert("Congratulations, you have completed all the tests!");
           generateCSV();
         }
       }
